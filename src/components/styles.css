@@ -1,0 +1,32 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+  
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+   
+.sidebar a.active {
+    background-color: #b91d6b;
+    color: white;
+}
+  
+.sidebar a:hover:not(.active) {
+    background-color: rgb(134, 0, 90);
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        display: flex;
+        width: 100%;
+        height: initial;
+    }
+}
