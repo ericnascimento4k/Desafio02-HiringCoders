@@ -19,4 +19,4 @@ O projeto estará então disponível no browser em : (http://localhost:3000)
 
 ### Primeira versão do projeto
 
-Para testar a primeira versão do projeto acesse : https://#
+Para testar a primeira versão do projeto acesse : #
